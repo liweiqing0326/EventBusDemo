@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_posting"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="POSTING线程" />
+
+    <Button
+        android:id="@+id/btn_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="MAIN线程" />
+
+    <Button
+        android:id="@+id/btn_background"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="BACKGROUND线程" />
+
+    <Button
+        android:id="@+id/btn_async"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="ASYNC线程" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="综合使用一" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="综合使用二" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="综合使用三" />
+</LinearLayout>
+

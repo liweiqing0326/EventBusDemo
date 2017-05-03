@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="POSTING：哪个线程发送，哪个线程执行"
+        android:textColor="#f00"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_post_from_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="主线程发送event - 主线程接收"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_post_from_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="子线程发送event - 子线程接收"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="现在神马都没有，真的神马都没有！"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+</LinearLayout>
